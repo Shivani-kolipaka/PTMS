@@ -1,4 +1,4 @@
-package com.ptms.app.dao.RoleDAO;
+package com.ptms.app.dao;
 
 import com.ptms.app.model.Role;
 import com.ptms.app.util.DBConnection;
