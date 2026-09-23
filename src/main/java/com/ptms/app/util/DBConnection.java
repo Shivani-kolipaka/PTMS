@@ -13,7 +13,7 @@ public class DBConnection {
             "root";
 
     private static final String PASSWORD =
-            "10012";
+            System.getenv("PTMS_DB_PASSWORD");
 
     public static Connection getConnection() throws SQLException {
 
